@@ -28,25 +28,16 @@ export default function Footer() {
             <h3 className="iim-footer-heading">Explore</h3>
             <ul className="iim-footer-links">
               <li><Link href="/about">About Us</Link></li>
-              <li><Link href="/mission">Mission &amp; Vision</Link></li>
-              <li><Link href="/team">Our Team</Link></li>
-              <li><Link href="/impact">Our Impact</Link></li>
               <li><Link href="/consultation">Consultation</Link></li>
-              <li><Link href="/speaking">Speaking</Link></li>
+              <li><Link href="/donate">Donate</Link></li>
             </ul>
           </div>
           <div className="col-6 col-lg-3 iim-footer-col">
             <h3 className="iim-footer-heading">Learn &amp; Engage</h3>
             <ul className="iim-footer-links">
               <li><Link href="/education">Education</Link></li>
-              <li><Link href="/courses">Courses</Link></li>
-              <li><Link href="/workshops">Workshops</Link></li>
               <li><Link href="/bioscience">Bioscience &amp; Islam</Link></li>
-              <li><Link href="/curriculum">Curriculum</Link></li>
-              <li><Link href="/research">Research</Link></li>
-              <li><Link href="/resources">Resources</Link></li>
               <li><Link href="/books">Books</Link></li>
-              <li><Link href="/podcast">Podcast</Link></li>
             </ul>
           </div>
           <div className="col-lg-3 iim-footer-col">

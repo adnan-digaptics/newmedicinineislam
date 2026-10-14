@@ -8,22 +8,14 @@ const NAV = [
   {
     label: "About",
     href: "/about",
-    items: [
-      ["About Us", "/about"],
-      ["Mission & Vision", "/mission"],
-      ["Our Team", "/team"],
-      ["Our Impact", "/impact"],
-    ],
+    items: [["About Us", "/about"]],
   },
   {
     label: "Education",
     href: "/education",
     items: [
       ["Education Overview", "/education"],
-      ["Courses", "/courses"],
-      ["Workshops", "/workshops"],
       ["Bioscience & Islam", "/bioscience"],
-      ["Institutional Curriculum", "/curriculum"],
     ],
   },
   {
@@ -32,26 +24,9 @@ const NAV = [
     items: [["Consultation", "/consultation"]],
   },
   {
-    label: "Speaking",
-    href: "/speaking",
-    items: [["Speaking", "/speaking"]],
-  },
-  {
-    label: "Research & Impact",
-    href: "/research",
-    items: [
-      ["Research Projects", "/research"],
-      ["Our Impact", "/impact"],
-    ],
-  },
-  {
-    label: "Resources",
-    href: "/resources",
-    items: [
-      ["Resource Library", "/resources"],
-      ["Books", "/books"],
-      ["Podcast", "/podcast"],
-    ],
+    label: "Books",
+    href: "/books",
+    items: [["Books", "/books"]],
   },
 ];
 
@@ -82,7 +57,7 @@ export default function Header() {
             <Link href="/consultation">CONTACT</Link>
             <span className="mx-2">|</span>
             <Link href="/donate">DONATE</Link>
-            <Link href="/resources" aria-label="Search">
+            <Link href="/books" aria-label="Search">
               <i className="fa-solid fa-magnifying-glass topbar-search-icon" />
             </Link>
           </span>
