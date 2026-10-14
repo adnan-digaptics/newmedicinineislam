@@ -8,13 +8,19 @@ const NAV = [
   {
     label: "About",
     href: "/about",
-    items: [["About Us", "/about"]],
+    items: [
+      ["About Us", "/about"],
+      ["Mission & Vision", "/mission"],
+      ["Our Team", "/team"],
+      ["Our Impact", "/impact"],
+    ],
   },
   {
     label: "Education",
     href: "/education",
     items: [
       ["Education Overview", "/education"],
+      ["Courses", "/courses"],
       ["Bioscience & Islam", "/bioscience"],
     ],
   },
@@ -65,13 +71,12 @@ export default function Header() {
       </div>
       <nav className="navbar navbar-expand-lg sticky-top main-nav">
         <div className="container">
-          <Link className="navbar-brand d-flex align-items-center" href="/">
-            <span className="brand-mark" aria-hidden="true" />
-            <span className="brand-type">
-              Initiative on<br />
-              <b>Islam &amp; Medicine</b>
-              <small>INSTILLING HIKMAH IN HEALTHCARE</small>
-            </span>
+          <Link className="navbar-brand site-brand" href="/">
+            <img
+              src="/images/logo.png"
+              alt="Initiative on Islam and Medicine"
+              className="site-logo site-logo--header"
+            />
           </Link>
           <button
             className="navbar-toggler"

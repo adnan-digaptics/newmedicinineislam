@@ -7,12 +7,11 @@ export default function Footer() {
         <div className="row g-4">
           <div className="col-lg-4 iim-footer-col">
             <Link className="iim-footer-brand" href="/">
-              <span className="brand-mark" aria-hidden="true" />
-              <span className="brand-type">
-                Initiative on<br />
-                <b>Islam &amp; Medicine</b>
-                <small>INSTILLING HIKMAH IN HEALTHCARE</small>
-              </span>
+              <img
+                src="/images/logo.png"
+                alt="Initiative on Islam and Medicine"
+                className="site-logo site-logo--footer"
+              />
             </Link>
             <p className="iim-footer-tagline">
               Knowledge that empowers care. For a more informed, equitable, and compassionate healthcare future.
@@ -28,6 +27,9 @@ export default function Footer() {
             <h3 className="iim-footer-heading">Explore</h3>
             <ul className="iim-footer-links">
               <li><Link href="/about">About Us</Link></li>
+              <li><Link href="/mission">Mission &amp; Vision</Link></li>
+              <li><Link href="/team">Our Team</Link></li>
+              <li><Link href="/impact">Our Impact</Link></li>
               <li><Link href="/consultation">Consultation</Link></li>
               <li><Link href="/donate">Donate</Link></li>
             </ul>
@@ -36,6 +38,7 @@ export default function Footer() {
             <h3 className="iim-footer-heading">Learn &amp; Engage</h3>
             <ul className="iim-footer-links">
               <li><Link href="/education">Education</Link></li>
+              <li><Link href="/courses">Courses</Link></li>
               <li><Link href="/bioscience">Bioscience &amp; Islam</Link></li>
               <li><Link href="/books">Books</Link></li>
             </ul>
